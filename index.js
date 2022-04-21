@@ -1,4 +1,4 @@
-// POEM: Forests are green, oceans are blue. Keep the earth clean, for me and for you
+// POEM: Forests are green, oceans are blue. Keep the earth clean, for me and for you.
 
 const obj = {
   color1: "green",
@@ -7,9 +7,14 @@ const obj = {
   adjective: "clean",
   emojis: ["🚂", "🌍", "🛼", "🍩", "🏖", "🎠", "🔮"],
   sentence: function () {
-    //maybe some code here 🤔
+    return `Forests are ${this.color1},
+oceans are ${this.color2}.
+Keep the ${this.planet} ${this.adjective},
+for me and for you.`;
   },
 };
+
+console.log(obj.sentence());
 
 // Task: Changing only the code ABOVE (lines 1-15), complete the poem and render it on the page.
 

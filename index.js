@@ -14,7 +14,7 @@ for me and for you.`;
   },
 };
 
-console.log(obj.sentence());
+document.querySelector("#poem").innerHTML = "hi";
 
 // Task: Changing only the code ABOVE (lines 1-15), complete the poem and render it on the page.
 

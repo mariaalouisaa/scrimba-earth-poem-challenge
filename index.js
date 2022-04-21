@@ -10,13 +10,13 @@ const obj = {
     return `Forests are ${this.color1},
 oceans are ${this.color2}.
 Keep the ${this.planet} ${this.adjective},
-for me and for you.`;
+for me and for you ${this.emojis[1]}`;
   },
 };
 
 document.querySelector("#poem").innerHTML = obj.sentence();
 
-// Task: Changing only the code ABOVE (lines 1-15), complete the poem and render it on the page.
+// ✔️ Task: Changing only the code ABOVE (lines 1-15), complete the poem and render it on the page.
 
 // stretch goal 1️⃣: Render the most suitable emoji from the emojis array in the object somewhere in our poem.
 
